@@ -1,0 +1,21 @@
+
+public class Fatorial {
+	public static void main(String[] args) {
+		int numero = 6;
+		int inicio = 1;
+		int fim = 0 ;
+		int fatorial=0;;
+		System.out.print("Fatorial de "+numero+ " = ");
+		for(int n = 1; n<10;n++) {
+			
+			System.out.print(n + " X ");
+			
+			
+			fim = n;
+			fatorial += inicio *n;
+			
+		}
+		System.out.println(fim + " = " + fatorial);
+	}
+
+}

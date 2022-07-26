@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;calculaIR.java&apos; to &apos;TesteIR.java&apos;&#x0D;&#x0A;- Original project: &apos;sintaxe-variaveis-e-fluxo&apos;&#x0D;&#x0A;- Original element: &apos;calculaIR.java&apos;&#x0D;&#x0A;- Renamed element: &apos;TesteIR.java&apos;" description="Rename compilation unit &apos;calculaIR.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{calculaIR.java" name="TesteIR.java" references="false" stamp="1648140245429" version="1.0"/>
+</session>
