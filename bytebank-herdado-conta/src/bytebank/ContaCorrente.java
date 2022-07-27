@@ -13,6 +13,12 @@ public ContaCorrente(int agencia, int numero) {
 	
 		return super.saca(valorASacar);
 	}
+
+@Override
+public void deposita(double valor) {
+	super.saldo += valor;
+	
+}
 	
 
 }

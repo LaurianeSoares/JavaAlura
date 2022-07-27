@@ -1,8 +1,8 @@
 package bytebank;
 
 
-public class Conta {
-	private double saldo;
+public abstract class Conta {
+	protected double saldo;
 	private int agencia;
 	private int numero;
 	//Cliente titular = new Cliente();
@@ -19,11 +19,11 @@ public class Conta {
 		System.out.println("Estou criando uma conta " + agencia);
 	}
 	
-	public void deposita(double valor) {
-		this.saldo += valor;
+	public abstract void deposita(double valor); //{
+		//this.saldo += valor;
 		
-	}
-	
+	//}
+		
 	public boolean saca(double valor){
 		if(this.saldo>=valor) {
 			this.saldo -= valor;
@@ -36,7 +36,7 @@ public class Conta {
 	
 	public boolean transfere(double valor, Conta x) {
 		if(this.saldo>=valor) {
-			this.saldo-=valor;
+			this.saldo-=valor + 0.2;
 			//x.saldo += valor;
 			x.deposita(valor);
 			return true;
